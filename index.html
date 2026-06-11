@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shubhamaicode Blog | Discover Latest blogs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-infinity"></i><span>shubhamaicode</span>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">Services <i class="fa-solid fa-chevron-down"></i></a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-auth">
+            <button id="theme-toggle" class="btn-theme">
+                <i class="fa-solid fa-moon" id="theme-icon"></i>
+            </button>
+            <a href="#" class="btn-signin">Sign in</a>
+            <a href="#" class="btn-register">Register</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <span class="badge">Blog</span>
+        <h1>Discover our latest news</h1>
+        <p>Discover the achievements that set us apart. From groundbreaking projects to industry accolades, we take
+            pride in our accomplishments.</p>
+        <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="search-input" placeholder="Search for articles...">
+            <button class="btn-search">Find Now</button>
+        </div>
+    </section>
+
+    <main class="main-container">
+
+        <section class="blog-section">
+            <h2 class="section-title">Latest Articles</h2>
+            <div class="blog-grid">
+
+                <a href="blogs/hidden-gems.html" class="card-link">
+                    <article class="blog-card"
+                        style="background-image: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.1)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80');">
+                        <div class="card-content">
+                            <span class="card-tag">Health & Nutrition</span>
+                            <h3 class="post-title">Wanderlust Unleashed: Top Hidden Gems You Must Visit</h3>
+                            <p>Discover unique, off-the-radar destinations around the world that offer breathtaking
+                                scenery...</p>
+                        </div>
+                    </article>
+
+                </a>
+                <a href="blogs/travel-bucket-list.html" class="card-link">
+                    <article class="blog-card"
+                        style="background-image: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.1)), url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80');">
+                        <div class="card-content">
+                            <span class="card-tag">Sustainability</span>
+                            <h3 class="post-title">Travel Bucket List: 25 Destinations for Every Adventurer</h3>
+                            <p>Explore a curated list of must-visit places for every kind of traveler, whether you love
+                                mountains or beaches...</p>
+                        </div>
+                    </article>
+                </a>
+
+<a href="blogs/biography.html" class="card-link">
+    <article class="blog-card" style="background-image: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.1)), url('https://upload.wikimedia.org/wikipedia/commons/1/11/Young_Mandela.jpg');">
+        <div class="card-content">
+            <span class="card-tag">Biography Insights</span>
+            <h3 class="post-title">My Biography: The Journey Nelson Mandela</h3>
+            <p>Nelson Rolihlahla Mandela was a South African anti-apartheid activist, statesman, and revolutionary who was the first president of South Africa from 1994 to ...Read more
+</p>
+        </div>
+    </article>
+</a>
+
+
+
+
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="sidebar-widget newsletter-widget">
+                <h3 class="widget-title">Newsletter</h3>
+                <div class="newsletter-box">
+                    <i class="fa-regular fa-paper-plane newsletter-icon"></i>
+                    <h4>Subscribe to updates</h4>
+                    <p>Get premium articles delivered directly to your inbox.</p>
+                    <form id="subscribe-form" onsubmit="return false;">
+                        <input type="email" id="subscriber-email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn-subscribe">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo"><i class="fa-solid fa-infinity"></i><span>shubhamaicode</span></div>
+                <p>Bringing you the best insights, trends, and stories from around the globe.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Important Pages</h3>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="disclaimer.html">Disclaimer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Shubham Code Ai. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
