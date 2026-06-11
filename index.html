@@ -48,7 +48,7 @@
 
         <section class="blog-section">
             <h2 class="section-title">Latest Articles</h2>
-            <div class="blog-grid">
+            <div class="blog-grid" id="blog-grid">
 
                 <a href="blogs/hidden-gems.html" class="card-link">
                     <article class="blog-card"
@@ -60,8 +60,8 @@
                                 scenery...</p>
                         </div>
                     </article>
-
                 </a>
+
                 <a href="blogs/travel-bucket-list.html" class="card-link">
                     <article class="blog-card"
                         style="background-image: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.1)), url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80');">
@@ -74,24 +74,107 @@
                     </article>
                 </a>
 
-<a href="blogs/biography.html" class="card-link">
-    <article class="blog-card" style="background-image: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.1)), url('https://upload.wikimedia.org/wikipedia/commons/1/11/Young_Mandela.jpg');">
-        <div class="card-content">
-            <span class="card-tag">Biography Insights</span>
-            <h3 class="post-title">My Biography: The Journey Nelson Mandela</h3>
-            <p>Nelson Rolihlahla Mandela was a South African anti-apartheid activist, statesman, and revolutionary who was the first president of South Africa from 1994 to ...Read more
-</p>
-        </div>
-    </article>
-</a>
+                <a href="blogs/biography.html" class="card-link">
+                    <article class="blog-card"
+                        style="background-image: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.1)), url('https://upload.wikimedia.org/wikipedia/commons/1/11/Young_Mandela.jpg');">
+                        <div class="card-content">
+                            <span class="card-tag">Biography Insights</span>
+                            <h3 class="post-title">My Biography: The Journey Nelson Mandela</h3>
+                            <p>Nelson Rolihlahla Mandela was a South African anti-apartheid activist, statesman, and
+                                revolutionary who was the first president of South Africa from 1994 to ...Read more</p>
+                        </div>
+                    </article>
+                </a>
 
 
+<!-- ye maine naya add kiya hai  -->
+                    <a href="blogs/hidden-gems.html" class="card-link" style="animation: fadeIn 0.6s ease forwards;">
+                        <article class="blog-card"
+                            style="background-image: linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.1)), url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80');">
+                            <div class="card-content">
+                                <span class="card-tag">Adventure</span>
+                                <h3 class="post-title">Testing ke lie hai bass😂</h3>
+                                <p>Learn the secrets of minimal packing and how to navigate solo trips efficiently...
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+<!-- agar tumhe ye chahie ki content par click karke poora page khul padhne ke lie to tumhe blogs me naya html file banake usme content likhna hai aur html code notepad par HAI aur load more me bhejna hai to javascript script.js me link daalna padega-->
 
 
             </div>
-        </section>
 
+            <div class="load-more-container">
+                <button id="load-more-btn" class="btn-load-more">
+                    <i class="fa-solid fa-sync fa-spin-hover"></i> Load More
+                </button>
+            </div>
+        </section>
+<!-- YE SIDEBAR KA CONTENT HAI MAIN CONTENT MAT DAALNA ISME -->
         <aside class="sidebar">
+
+            <div class="sidebar-widget">
+                <h3 class="widget-title">Featured</h3>
+                <div class="mini-post-list">
+
+                    <a href="blogs/hidden-gems.html" class="mini-post-link">
+                        <div class="mini-post">
+                            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=150&q=80"
+                                alt="Thumbnail">
+                            <div class="mini-post-info">
+                                <span class="mini-date">August 7, 2026</span>
+                                <h4 class="mini-title">Top Hidden Gems: Must-Visit Spots</h4>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="blogs/travel-bucket-list.html" class="mini-post-link">
+                        <div class="mini-post">
+                            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=150&q=80"
+                                alt="Thumbnail">
+                            <div class="mini-post-info">
+                                <span class="mini-date">March 23, 2026</span>
+                                <h4 class="mini-title">Bucket List: 25 Adventures</h4>
+                            </div>
+                        </div>
+                    </a>
+                    
+
+
+
+
+                </div>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3 class="widget-title">Latest</h3>
+                <div class="mini-post-list">
+
+                    <a href="blogs/travel-bucket-list.html" class="mini-post-link">
+                        <div class="mini-post">
+                            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=150&q=80"
+                                alt="Thumbnail">
+                            <div class="mini-post-info">
+                                <span class="mini-date">October 24, 2026</span>
+                                <h4 class="mini-title">The Ordinary: A Journey Through Visual Layouts</h4>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="blogs/biography.html" class="mini-post-link">
+                        <div class="mini-post">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Young_Mandela.jpg"
+                                alt="Thumbnail">
+                            <div class="mini-post-info">
+                                <span class="mini-date">June 11, 2026</span>
+                                <h4 class="mini-title">How to Safely Document Travel Biographies</h4>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
             <div class="sidebar-widget newsletter-widget">
                 <h3 class="widget-title">Newsletter</h3>
                 <div class="newsletter-box">
